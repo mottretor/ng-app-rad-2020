@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h3 class="h3">Students</h3>
+    </div>
+    <div class="card-body">
+      <table class="table">
+        <tr class="d-sm-table-row">
+          <td>Registration Number</td>
+          <td>Name</td>
+          <td>E-mail</td>
+        </tr>
+        <tr *ngFor="let student of studentData">
+          <td>{{ student['reg_no'] }}</td>
+          <td>{{ student['name'] }}</td>
+          <td>{{ student['email'] }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</div>

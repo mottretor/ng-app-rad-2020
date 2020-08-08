@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-app"
+    }
+  },
+  "defaultProject": "ng-app",
+  "cli": {
+    "analytics": "5a0f890c-1d07-4a7f-9ca9-22cc79b798e8"
+  }
 }
